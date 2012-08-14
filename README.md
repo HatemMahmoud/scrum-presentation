@@ -1,2 +1,2 @@
-scrum-presentation
+Scrum Presentation
 ==================

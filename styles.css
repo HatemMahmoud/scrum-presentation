@@ -605,6 +605,12 @@ article.smaller q::after {
 em{
   font-weight:bold;
 }
+p img{
+  float:right;
+  border: 1px solid #999;
+  padding: 5px;
+  height: 350px;
+}
 img.avatar{
   border: 1px solid #999;
   padding: 5px;
