@@ -598,12 +598,12 @@ article.smaller q::after {
   color: rgb(127, 0, 127);
 }  
 
-article.first {
+article.cover {
   background-image: url('images/rugby-scrum.jpg');
   background-size:100% 100%;
   background-repeat:no-repeat;
 }
-article.first h1 {
+article.cover h1 {
   margin: 470px 0 0;
   font-size: 70px;
   color: #FFFFFF;
@@ -615,7 +615,7 @@ address{
   font-size: 30px;
   line-height: 35px;
 }
-article.first address {
+article.cover address {
    color: #FFFFFF;
    text-shadow: 0 1px 3px #000000;
 }
