@@ -488,14 +488,10 @@ td, th {
 }
 
 .source {
-  position: absolute;
-  left: 60px;
-  top: 644px;
-  padding-right: 175px;
-  
-  font-size: 15px;
-  letter-spacing: 0;  
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  margin-top: 17px;
 }
 
 q {
@@ -602,6 +598,27 @@ article.smaller q::after {
   color: rgb(127, 0, 127);
 }  
 
+article.first {
+  background-image: url('images/rugby-scrum.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+article.first h1 {
+  margin: 470px 0 0;
+  font-size: 70px;
+  color: #FFFFFF;
+  text-shadow: 0 1px 3px #000000;
+}
+address{
+  font-style:normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+article.first address {
+   color: #FFFFFF;
+   text-shadow: 0 1px 3px #000000;
+}
 em{
   font-weight:bold;
 }
@@ -630,11 +647,6 @@ img.xlarge{
   margin: 0 auto;
   max-width: 778px;
   max-height: 618px;
-}
-address{
-  font-style:normal;
-  font-size: 30px;
-  line-height: 35px;
 }
 .author_name{
   font-size: 33px;
